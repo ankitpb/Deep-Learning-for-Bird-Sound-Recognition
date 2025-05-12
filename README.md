@@ -9,7 +9,7 @@ This project focuses on classifying bird species from audio recordings using spe
 - **Dataset**: Subset of the Birdcall Competition data (originally from Xeno-Canto).
 - **Input Format**: Mel-spectrograms of shape `128 × 517` generated from `.mp3` audio clips.
 
-## 🧠 Models Used
+## Models Used
 
 - Custom CNNs with:
   - Batch normalization
@@ -18,7 +18,7 @@ This project focuses on classifying bird species from audio recordings using spe
 - Focal Loss to address class imbalance
 - On-the-fly spectrogram augmentation (frequency and time masking)
 
-## 📈 Key Results
+## Key Results
 
 | Task                        | Accuracy |
 |-----------------------------|----------|
